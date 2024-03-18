@@ -9,9 +9,7 @@
 
   <div class="about__about">
     <span class="about__about__text">
-      <strong class="about__about__text__bold">Digital Finance Group Ltd. (registration number C105643)</strong> - is a Maltese company,  investing in business projects throughout the EU.
-      We are a long-term holding company dedicated to buying and building successful businesses and managing them with exceptional, values-based leadership.
-      The main object of our company is to subcribe of any shares of any entity in the name of and on behalf of the company.
+      <strong class="about__about__text__bold">Digital Finance Group Ltd. (registration number C105643)</strong> - we are Maltese company, providing white label IT services and solutions. We send out skilled IT engineers under your brand name so you can expand your reach without employing staff directly.
     </span>
   </div>
 </section>

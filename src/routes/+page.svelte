@@ -12,46 +12,14 @@
       </div>
     </div>
 
-    <div class="main__about__bottom_section">
-      <div class="main__about__bottom_section__block">
-        <h2 class="main__about__bottom_section__block__title">
-          Mission and goals
-        </h2>
+    <div class="main__about__text_wrapper">
+      <p class="main__about__text_wrapper__text">
+        We offer 24/7 access to 6000+ trained IT engineers on every continent
+      </p>
 
-        <p class="main__about__bottom_section__block__text">
-          Development of investment tools, fintech ecosystem and provision of access to quality financial resources to a wider client base.
-        </p>
-      </div>
-
-      <div class="main__about__bottom_section__block">
-        <h2 class="main__about__bottom_section__block__title">
-          Own IT infrastructure
-        </h2>
-
-        <p class="main__about__bottom_section__block__text">
-          A high-performance, scalable IT infrastructure ensures the security and reliability of financial processes.
-        </p>
-      </div>
-
-      <div class="main__about__bottom_section__block">
-        <h2 class="main__about__bottom_section__block__title">
-          Security of investments
-        </h2>
-
-        <p class="main__about__bottom_section__block__text">
-          The current structure of the holding ensures financial, investment, liquidity and legal stability of the group companies, as well as ensures synergy and effective implementation of new technologies.
-        </p>
-      </div>
-
-      <div class="main__about__bottom_section__block">
-        <h2 class="main__about__bottom_section__block__title">
-          Effective management
-        </h2>
-
-        <p class="main__about__bottom_section__block__text">
-          High professionalism and experience in creating effective management systems for the successful implementation of initiatives.
-        </p>
-      </div>
+      <p class="main__about__text_wrapper__text_small">
+        Whether you need break fix support with critical SLA's, resource for financial projects and any other IT Services.
+      </p>
     </div>
   </div>
 </section>
@@ -111,35 +79,31 @@
         }
       }
 
-      &__bottom_section {
+      &__text_wrapper {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 20px;
         width: 50%;
-        height: 100%;
+        height: 200px;
+        padding: 20px;
+        border-radius: 15px;
 
         @include mobile {
           width: 100%;
         }
 
-        &__block {
-          flex-basis: 25%;
-          padding: 20px;
-          background-color: rgba(255, 255, 255, 0.6);
-          border-radius: 15px;
-          
-          &__title {
-            font-size: 24px;
-            font-weight: 700;
-            margin-bottom: 10px;
-            color: black;
-          }
+        &__text {
+          font-size: 56px;
+          color: black;
+          font-weight: bold;
+          text-align: justify;
+        }
 
-          &__text {
-            font-size: 16px;
-            color: black;
-            text-align: justify;
-          }
+        &__text_small {
+          font-size: 32px;
+          color: black;
+          text-align: justify;
         }
       }
     }

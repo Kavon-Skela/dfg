@@ -5,7 +5,7 @@
 <header class="header">
   <nav class="header__nav">
     <a href="/" class="header__nav__logo">
-      Digital Financial Group
+      Digital Finance Group
     </a>
 
     <div class="header__nav__links_wrapper">
@@ -54,20 +54,6 @@
 
         @include mobile {
           font-size: 26px;
-        }
-
-        &::after {
-          content: 'We purchase the solid companies and build them to last forever';
-          display: block;
-          margin-top: 5px;
-          color: rgb(0, 2, 73);
-          font-size: 14px;
-          transition: color 0.3s ease-in-out;
-
-          @include mobile {
-            content: unset;
-            margin-top: 0;
-          }
         }
 
         &:hover {
