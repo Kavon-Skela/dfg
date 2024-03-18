@@ -34,13 +34,12 @@
       &__text {
         display: block;
         color: black;
-        text-align: justify;
         line-height: 140%;
-        font-size: 18px;
+        font-size: 32px;
         max-width: 600px;
 
         &__bold {
-          font-size: 28px;
+          font-size: 56px;
 
           @include mobile {
             font-size: 24px;
