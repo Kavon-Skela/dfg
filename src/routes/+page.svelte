@@ -97,7 +97,6 @@
           font-size: 56px;
           color: black;
           font-weight: bold;
-          text-align: justify;
         }
 
         &__text_small {
