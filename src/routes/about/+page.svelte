@@ -40,6 +40,7 @@
 
         &__bold {
           font-size: 56px;
+          font-weight: bold;
 
           @include mobile {
             font-size: 24px;
