@@ -91,6 +91,7 @@
 
         @include mobile {
           width: 100%;
+          height: unset;
         }
 
         &__text {
